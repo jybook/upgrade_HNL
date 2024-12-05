@@ -1,0 +1,442 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided remote nodes: 1
+Provided resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 12:50:50 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=1, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst --runnumber 190303 --filenr 1000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 12:50:59 2024]
+localrule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=1, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=/tmp, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst --runnumber 190303 --filenr 1000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+WARN (Python): env: (clsim.py:598 in MakePhotonsMultiSensor)
+WARN (Python):             BASH_ENV: /n/sw/helmod-rocky8/apps/lmod/lmod/init/bash (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): BASH_FUNC__spack_shell_wrapper%%: () {  for var in DYLD_LIBRARY_PATH DYLD_FALLBACK_LIBRARY_PATH;
+ do
+ eval "if [ -n \"\${${var}-}\" ]; then export SPACK_$var=\${${var}}; fi";
+ done;
+ if [ -n "${ZSH_VERSION:-}" ]; then
+ emulate -L sh;
+ fi;
+ _sp_flags="";
+ while [ ! -z ${1+x} ] && [ "${1#-}" != "${1}" ]; do
+ _sp_flags="$_sp_flags $1";
+ shift;
+ done;
+ if [ -n "$_sp_flags" ] && [ "${_sp_flags#*h}" != "${_sp_flags}" ] || [ "${_sp_flags#*V}" != "${_sp_flags}" ]; then
+ command spack $_sp_flags "$@";
+ return;
+ fi;
+ _sp_subcommand="";
+ if [ ! -z ${1+x} ]; then
+ _sp_subcommand="$1";
+ shift;
+ fi;
+ case $_sp_subcommand in 
+ "cd")
+ _sp_arg="";
+ if [ -n "$1" ]; then
+ _sp_arg="$1";
+ shift;
+ fi;
+ if [ "$_sp_arg" = "-h" ] || [ "$_sp_arg" = "--help" ]; then
+ command spack cd -h;
+ else
+ LOC="$(SPACK_COLOR="${SPACK_COLOR:-always}" spack location $_sp_arg "$@")";
+ if [ -d "$LOC" ]; then
+ cd "$LOC";
+ else
+ return 1;
+ fi;
+ fi;
+ return
+ ;;
+ "env")
+ _sp_arg="";
+ if [ -n "$1" ]; then
+ _sp_arg="$1";
+ shift;
+ fi;
+ if [ "$_sp_arg" = "-h" ] || [ "$_sp_arg" = "--help" ]; then
+ command spack env -h;
+ else
+ case $_sp_arg in 
+ activate)
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ] || [ "${_a#* -h}" != "$_a" ] || [ "${_a#* --help}" != "$_a" ]; then
+ command spack env activate "$@";
+ else
+ stdout="$(SPACK_COLOR="${SPACK_COLOR:-always}" command spack $_sp_flags env activate --sh "$@")" || return;
+ eval "$stdout";
+ fi
+ ;;
+ deactivate)
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ]; then
+ command spack env deactivate "$@";
+ else
+ if [ -n "$*" ]; then
+ command spack env deactivate -h;
+ else
+ stdout="$(SPACK_COLOR="${SPACK_COLOR:-always}" command spack $_sp_flags env deactivate --sh)" || return;
+ eval "$stdout";
+ fi;
+ fi
+ ;;
+ *)
+ command spack env $_sp_arg "$@"
+ ;;
+ esac;
+ fi;
+ return
+ ;;
+ "load" | "unload")
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ] || [ "${_a#* -h}" != "$_a" ] || [ "${_a#* --list}" != "$_a" ] || [ "${_a#* --help}" != "$_a" ]; then
+ command spack $_sp_flags $_sp_subcommand "$@";
+ else
+ stdout="$(SPACK_COLOR="${SPACK_COLOR:-always}" command spack $_sp_flags $_sp_subcommand --sh "$@")" || return;
+ eval "$stdout";
+ fi
+ ;;
+ *)
+ command spack $_sp_flags $_sp_subcommand "$@"
+ ;;
+ esac
+} (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       BASH_FUNC_ml%%: () {  eval "$($LMOD_DIR/ml_cmd "$@")"
+} (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   BASH_FUNC_module%%: () {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then
+ case "$-" in 
+ *v*x*)
+ __lmod_sh_dbg='vx'
+ ;;
+ *v*)
+ __lmod_sh_dbg='v'
+ ;;
+ *x*)
+ __lmod_sh_dbg='x'
+ ;;
+ esac;
+ fi;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ set +$__lmod_sh_dbg;
+ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;
+ fi;
+ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";
+ __lmod_my_status=$?;
+ if [ -n "${__lmod_sh_dbg:-}" ]; then
+ echo "Shell debugging restarted" 1>&2;
+ set -$__lmod_sh_dbg;
+ fi;
+ unset __lmod_sh_dbg;
+ return $__lmod_my_status
+} (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    BASH_FUNC_spack%%: () {  : this is a shell function from: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/spack/share/spack/setup-env.sh;
+ : the real spack script is here: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/spack/bin/spack;
+ _spack_shell_wrapper "$@";
+ return $?
+} (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    BASH_FUNC_which%%: () {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+} (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              BROWSER: /n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            COLORTERM: truecolor (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    CONDA_DEFAULT_ENV: snakemake (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            CONDA_EXE: /n/sw/Miniforge3-24.7.1-0/bin/conda (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      CONDA_PKGS_DIRS: ~/.conda/pkgs (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         CONDA_PREFIX: /n/home00/jbook/.conda/envs/snakemake (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): CONDA_PROMPT_MODIFIER: (snakemake)  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     CONDA_PYTHON_EXE: /n/sw/Miniforge3-24.7.1-0/bin/python (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          CONDA_SHLVL: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): CUDA_VISIBLE_DEVICES: MIG-2f318d2a-82e2-5e30-8b8b-0e08bdb2be6e,MIG-d1f39ffb-4968-5ff7-af5b-38151c0a9b57,MIG-6a60559f-4e4c-51f8-9425-c2f5e8908c30,MIG-fde06ef3-cb46-5efc-bd14-74cd9d014834 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              CVS_RSH: ssh (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      DEBUGINFOD_URLS: https://debuginfod.centos.org/  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    DYLD_LIBRARY_PATH: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/lib:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/lib/tools:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/spack/opt/spack/linux-centos8-x86_64/gcc-9.3.0spack/root-6.18.04-yvsccwwxdavxc5qxprid3hph2uhkxk2k/lib: (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          ENVIRONMENT: BATCH (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           G4ABLADATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4ABLA3.1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     G4ENSDFSTATEDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4ENSDFSTATE2.2 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             G4LEDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4EMLOW7.7 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     G4LEVELGAMMADATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/PhotonEvaporation5.3 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      G4NEUTRONHPDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4NDL4.5 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     G4PARTICLEXSDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4PARTICLEXS1.1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            G4PIIDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4PII1.3 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    G4RADIOACTIVEDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/RadioactiveDecay5.3 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    G4REALSURFACEDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/RealSurface2.1.1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         G4SAIDXSDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/Geant4-10.5.1/data/G4SAIDDATA2.0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          GIT_ASKPASS: /n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): GLOBUS_GSSAPI_NAME_COMPATIBILITY: HYBRID (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      GLOBUS_LOCATION: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     GOTO_NUM_THREADS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): HDF5_USE_FILE_LOCKING: FALSE (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          HISTCONTROL: ignoredups (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             HISTSIZE: 1000 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       HISTTIMEFORMAT: %F %T  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 HOME: /n/home00/jbook (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             HOSTNAME: holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      HYDRA_BOOTSTRAP: slurm (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): HYDRA_LAUNCHER_EXTRA_ARGS: --external-launcher (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             I3_BUILD: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              I3_DATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/../data (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          I3_PLATFORM:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          I3_PRODDATA: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/prod-data (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             I3_SHELL: python (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):               I3_SRC: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          I3_TESTDATA: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/../data/i3-test-data-svn/trunk (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    ICETRAY_CLASSPATH:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): I_MPI_HYDRA_BOOTSTRAP: slurm (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: --external-launcher (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 LANG: en_US.UTF-8 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      LD_LIBRARY_PATH: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/lib:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/lib/tools:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/spack/opt/spack/linux-centos8-x86_64/gcc-9.3.0spack/root-6.18.04-yvsccwwxdavxc5qxprid3hph2uhkxk2k/lib:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/spack/opt/spack/linux-centos8-x86_64/gcc-9.3.0spack/geant4-10.05.p01-odubgltbekywbzcdqunadyhsdqhtlirf/lib64:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/../distrib/OpenCL_Linux/lib/x86_64:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/lib:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/lib64:/tmp/tmppu02ksph/lib:/usr/lib/nvidia:/usr/lib64/nvidia:/usr/local/cuda/lib64 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             LESSOPEN: ||/usr/bin/lesspipe.sh %s (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     LHAPDF_DATA_PATH: /cvmfs/sft.cern.ch/lcg/external/lhapdfsets/current (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             LMOD_CMD: /n/sw/helmod-rocky8/apps/lmod/lmod/libexec/lmod (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             LMOD_DIR: /n/sw/helmod-rocky8/apps/lmod/lmod/libexec (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             LMOD_PKG: /n/sw/helmod-rocky8/apps/lmod/lmod (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            LMOD_ROOT: /n/sw/helmod-rocky8/apps/lmod (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): LMOD_SETTARG_FULL_SUPPORT: no (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         LMOD_VERSION: 8.7.19 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             LMOD_sys: Linux (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        LOADEDMODULES: Miniforge3/24.7.1-fasrc01:python/3.12.5-fasrc01 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              LOGNAME: jbook (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 MAIL: /var/spool/mail/jbook (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     MALLOC_ARENA_MAX: 4 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): MAMBA_DISABLE_LOCKFILE: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              MANPATH: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/man:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/man:/n/sw/helmod-rocky8/apps/lmod/lmod/share/man:/opt/puppetlabs/puppet/share/man (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      MKL_NUM_THREADS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           MODULEPATH: /n/sw/helmod-rocky8/modulefiles/Linux:/n/sw/helmod-rocky8/modulefiles/Core (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      MODULEPATH_ROOT: /n/sw/helmod-rocky8/modulefiles (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          MODULESHOME: /n/sw/helmod-rocky8/apps/lmod/lmod (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       NCARG_DATABASE: /usr/lib64/ncarg/database (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       NCARG_FONTCAPS: /usr/lib64/ncarg/fontcaps (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      NCARG_GRAPHCAPS: /usr/lib64/ncarg/graphcaps (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            NCARG_LIB: /usr/lib64/ncarg (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          NCARG_NCARG: /usr/share/ncarg (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           NCARG_ROOT: /usr (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         NODE_OPTIONS:  --require /n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/ms-vscode.js-debug/src/bootloader.js  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  NUMEXPR_NUM_THREADS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):               OLDPWD: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): OMPI_MCA_plm_slurm_args: --external-launcher (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      OMP_NUM_THREADS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): OPENBLAS_NUM_THREADS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   OPENCL_VENDOR_PATH: /tmp/tmppu02ksph/etc/OpenCL/vendors (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              OS_ARCH: RHEL_8_x86_64 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       PAM_KRB5CCNAME: /tmp/krb5cc_pam_iDCJQB (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 PATH: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/bin:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/spack/opt/spack/linux-centos8-x86_64/gcc-9.3.0spack/root-6.18.04-yvsccwwxdavxc5qxprid3hph2uhkxk2k/bin:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/bin:/n/home00/jbook/.conda/envs/snakemake/bin:/n/sw/Miniforge3-24.7.1-0/condabin:/n/sw/Miniforge3-24.7.1-0/bin:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/spack/bin:/n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/n/home00/jbook/.local/bin:/n/home00/jbook/bin:/n/home00/jbook/.conda/envs/conda-inject-00e8d5dd054222601d9eede561e29f0c84292bfeb508d94b6635fa533ae355b9_/bin:/n/home00/jbook/.conda/envs/conda-inject-00e8d5dd054222601d9eede561e29f0c84292bfeb508d94b6635fa533ae355b9_/bin:/n/home00/jbook/.conda/envs/conda-inject-00e8d5dd054222601d9eede561e29f0c84292bfeb508d94b6635fa533ae355b9_/bin (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             PERL5LIB: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/lib/perl:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/lib/perl5 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     PIP_NO_CACHE_DIR: off (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      PKG_CONFIG_PATH: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/lib/pkgconfig (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): PRTE_MCA_plm_slurm_args: --external-launcher (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                  PWD: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     PYTHONNOUSERSITE: True (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           PYTHONPATH: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/lib:/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/spack/opt/spack/linux-centos8-x86_64/gcc-9.3.0spack/root-6.18.04-yvsccwwxdavxc5qxprid3hph2uhkxk2k/lib::/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          PYTHON_HOME: /n/sw/Miniforge3-24.7.1-0/ (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       PYTHON_INCLUDE: /n/sw/Miniforge3-24.7.1-0/include (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           PYTHON_LIB: /n/sw/Miniforge3-24.7.1-0/lib (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              ROOTSYS: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/spack/opt/spack/linux-centos8-x86_64/gcc-9.3.0spack/root-6.18.04-yvsccwwxdavxc5qxprid3hph2uhkxk2k (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              SCRATCH: /n/netscratch (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SELINUX_LEVEL_REQUESTED:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SELINUX_ROLE_REQUESTED:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SELINUX_USE_CURRENT_RANGE:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                SHELL: /bin/bash (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                SHLVL: 10 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SINGULARITY_DISABLE_CACHE: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SINGULARITY_TMPDIR: /scratch (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURMD_DEBUG: 2 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      SLURMD_NODENAME: holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_CLUSTER_NAME: odyssey (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           SLURM_CONF: /etc/slurm/slurm.conf (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_CPUS_ON_NODE: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_CPUS_PER_TASK: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SLURM_CPU_BIND: quiet,mask_cpu:0x0000000000080000 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_CPU_BIND_LIST: 0x0000000000080000 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_CPU_BIND_TYPE: mask_cpu: (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_CPU_BIND_VERBOSE: quiet (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_DISTRIBUTION: cyclic (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_GPUS_ON_NODE: 4 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          SLURM_GTIDS: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          SLURM_JOBID: 60837908 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    SLURM_JOB_ACCOUNT: arguelles_delgado_lab (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_JOB_CPUS_PER_NODE: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_JOB_END_TIME: 1733361630 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SLURM_JOB_GID: 5137 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SLURM_JOB_GPUS: 4,5,6,7 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_JOB_ID: 60837908 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SLURM_JOB_NAME: 2ac45d6f-b37b-421e-ad5d-4aa43f8aa352 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_JOB_NODELIST: holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_JOB_NUM_NODES: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_JOB_PARTITION: arguelles_delgado_gpu (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SLURM_JOB_QOS: normal (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_JOB_START_TIME: 1733334630 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SLURM_JOB_UID: 60939 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SLURM_JOB_USER: jbook (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_LAUNCH_NODE_IPADDR: 10.31.144.54 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SLURM_LOCALID: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_MEM_PER_NODE: 12000 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_NNODES: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_NODEID: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SLURM_NODELIST: holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_NPROCS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_NTASKS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):   SLURM_PRIO_PROCESS: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_PROCID: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_SCRIPT_CONTEXT: prolog_task (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_SRUN_COMM_HOST: 10.31.144.54 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_SRUN_COMM_PORT: 10829 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SLURM_STEPID: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SLURM_STEPMGR: holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      SLURM_STEP_GPUS: 4,5,6,7 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SLURM_STEP_ID: 0 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_STEP_LAUNCHER_PORT: 10829 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_STEP_NODELIST: holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_STEP_NUM_NODES: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_STEP_NUM_TASKS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_STEP_TASKS_PER_NODE: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     SLURM_SUBMIT_DIR: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):    SLURM_SUBMIT_HOST: boslogin05.rc.fas.harvard.edu (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_TASKS_PER_NODE: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SLURM_TASK_PID: 3929947 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_TOPOLOGY_ADDR: main.holyoke.holyhdr.holygpu8a29104 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): SLURM_TOPOLOGY_ADDR_PATTERN: switch.switch.switch.node (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  SLURM_TRES_PER_TASK: cpu=1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          SLURM_UMASK: 0022 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SPACK_PYTHON: /usr/bin/python3 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           SPACK_ROOT: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/spack (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            SQUEUE_DB: portal (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          SQUEUE_HOST: db-portal (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SQUEUE_PASSWD: dkM3cR4PV4e9L3Y (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):          SQUEUE_USER: squeue (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                SROOT: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            SROOTBASE: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           SRUN_DEBUG: 3 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):           SSH_CLIENT: 65.112.8.19 61340 22 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       SSH_CONNECTION: 65.112.8.19 61340 10.242.104.150 22 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         SSL_CERT_DIR: /etc/ssl/certs (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        SSL_CERT_FILE: /etc/ssl/certs/ca-bundle.crt (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):             S_COLORS: auto (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 TEMP: /tmp (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):              TEMPDIR: /tmp (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 TERM: xterm-256color (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):         TERM_PROGRAM: vscode (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): TERM_PROGRAM_VERSION: 1.91.1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                  TMP: /tmp (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):               TMPDIR: /tmp (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                 USER: jbook (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): VECLIB_MAXIMUM_THREADS: 1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        VOMS_USERCONF: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/etc/vomses (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): VSCODE_GIT_ASKPASS_EXTRA_ARGS:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): VSCODE_GIT_ASKPASS_MAIN: /n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): VSCODE_GIT_ASKPASS_NODE: /n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): VSCODE_GIT_IPC_HANDLE: /run/user/60939/vscode-git-b0181002ee.sock (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): VSCODE_INSPECTOR_OPTIONS: :::{"inspectorIpc":"/tmp/node-cdp.659403-78dad01c-0.sock","deferredMode":false,"waitForDebugger":"","onlyEntrypoint":false,"autoAttachMode":"always","mandatePortTracking":true,"fileCallback":"/tmp/node-debug-callback-bde652a4513b964e"} (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):  VSCODE_IPC_HOOK_CLI: /run/user/60939/vscode-ipc-c1a6beba-b45d-4003-a84d-c7bbee1dba31.sock (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        X509_CERT_DIR: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/share/certificates (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):      XDG_RUNTIME_DIR: /run/user/60939 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):       XDG_SESSION_ID: 835 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                    _: /cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/RHEL_8_x86_64/bin/python (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            _CE_CONDA:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):                _CE_M:  (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):            _LMFILES_: /n/sw/helmod-rocky8/modulefiles/Core/Miniforge3/24.7.1-fasrc01.lua:/n/sw/helmod-rocky8/modulefiles/Core/python/3.12.5-fasrc01.lua (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     _ModuleTable001_: X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IGZhbHNlLApjX3Nob3J0VGltZSA9IGZhbHNlLApkZXB0aFQgPSB7fSwKZmFtaWx5ID0ge30sCm1UID0gewpNaW5pZm9yZ2UzID0gewpmbiA9ICIvbi9zdy9oZWxtb2Qtcm9ja3k4L21vZHVsZWZpbGVzL0NvcmUvTWluaWZvcmdlMy8yNC43LjEtZmFzcmMwMS5sdWEiLApmdWxsTmFtZSA9ICJNaW5pZm9yZ2UzLzI0LjcuMS1mYXNyYzAxIiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJNaW5pZm9yZ2UzLzI0LjcuMS1mYXNyYzAxIiwKd1YgPSAiMDAwMDAwMDI0LjAwMDAwMDAwNy4wMDAwMDAwMDEuKmZhc3Jj (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     _ModuleTable002_: LjAwMDAwMDAwMS4qemZpbmFsIiwKfSwKcHl0aG9uID0gewpmbiA9ICIvbi9zdy9oZWxtb2Qtcm9ja3k4L21vZHVsZWZpbGVzL0NvcmUvcHl0aG9uLzMuMTIuNS1mYXNyYzAxLmx1YSIsCmZ1bGxOYW1lID0gInB5dGhvbi8zLjEyLjUtZmFzcmMwMSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAwLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAicHl0aG9uIiwKd1YgPSAiMDAwMDAwMDAzLjAwMDAwMDAxMi4wMDAwMDAwMDUuKmZhc3JjLjAwMDAwMDAwMS4qemZpbmFsIiwKfSwKfSwKbXBhdGhBID0gewoiL24vc3cvaGVsbW9kLXJvY2t5OC9tb2R1bGVmaWxlcy9MaW51eCIsICIvbi9zdy9oZWxtb2Qtcm9ja3k4L21vZHVsZWZpbGVzL0NvcmUi (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     _ModuleTable003_: LAp9LApzeXN0ZW1CYXNlTVBBVEggPSAiL24vc3cvaGVsbW9kLXJvY2t5OC9tb2R1bGVmaWxlcy9MaW51eDovbi9zdy9oZWxtb2Qtcm9ja3k4L21vZHVsZWZpbGVzL0NvcmUiLAp9Cg== (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):     _ModuleTable_Sz_: 3 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): __LMOD_REF_COUNT_MODULEPATH: /n/sw/helmod-rocky8/modulefiles/Linux:1;/n/sw/helmod-rocky8/modulefiles/Core:1 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): __LMOD_REF_COUNT_PATH: /n/sw/Miniforge3-24.7.1-0/bin:1;/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/spack/bin:2;/n/home00/jbook/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:1;/usr/local/bin:4;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/opt/puppetlabs/bin:1;/n/home00/jbook/.local/bin:2;/n/home00/jbook/bin:2 (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python):        which_declare: declare -f (clsim.py:600 in MakePhotonsMultiSensor)
+WARN (Python): OpenCL devices: (clsim.py:601 in MakePhotonsMultiSensor)
+WARN (Python): [ I3CLSimOpenCLDevice platform : NVIDIA CUDA
+                        device : NVIDIA A100-SXM4-80GB MIG 1g.10gb
+
+                           cpu : NO
+                           gpu : YES
+               maxComputeUnits : 14
+               maxWorkItemSize : 1024
+              maxWorkGroupSize : 1024
+             maxClockFrequency : 1410MHz
+                 globalMemSize : 9728MiB
+         maxConstantBufferSize : 64kiB
+                  localMemSize : 48kiB
+             dedicatedLocalMem : YES
+        errorCorrectionSupport : YES
+                     available : YES
+                        vendor : NVIDIA Corporation
+                 driverVersion : 555.42.02
+                 deviceVersion : OpenCL 3.0 CUDA
+                    extensions : cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_icd cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_copy_opts cl_khr_gl_event cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_nv_kernel_attribute cl_khr_device_uuid cl_khr_pci_bus_info cl_khr_external_semaphore cl_khr_external_memory cl_khr_external_semaphore_opaque_fd cl_khr_external_memory_opaque_fd
+
+                 useNativeMath : NO
+  approximateNumberOfWorkItems : 1024
+] (clsim.py:603 in MakePhotonsMultiSensor)
+WARN (Python): [ I3CLSimOpenCLDevice platform : AMD Accelerated Parallel Processing
+                        device : Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz
+
+                           cpu : YES
+                           gpu : NO
+               maxComputeUnits : 64
+               maxWorkItemSize : 1024
+              maxWorkGroupSize : 1024
+             maxClockFrequency : 3353MHz
+                 globalMemSize : 515098MiB
+         maxConstantBufferSize : 64kiB
+                  localMemSize : 32kiB
+             dedicatedLocalMem : NO
+        errorCorrectionSupport : NO
+                     available : YES
+                        vendor : GenuineIntel
+                 driverVersion : 1214.3 (sse2,avx)
+                 deviceVersion : OpenCL 1.2 AMD-APP (1214.3)
+                    extensions : cl_khr_fp64 cl_amd_fp64 cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_3d_image_writes cl_khr_byte_addressable_store cl_khr_gl_sharing cl_ext_device_fission cl_amd_device_attribute_query cl_amd_vec3 cl_amd_printf cl_amd_media_ops cl_amd_media_ops2 cl_amd_popcnt 
+
+                 useNativeMath : NO
+  approximateNumberOfWorkItems : 1024
+] (clsim.py:603 in MakePhotonsMultiSensor)
+NOTICE (I3Tray): I3Tray finishing... (I3Tray.cxx:526 in void I3Tray::Execute(bool, unsigned int))
+WARN (clsim): Running Geant and photon propagation in the same process. This will likely starve your GPU. (I3CLSimMakePhotons.py:330 in I3CLSimMakePhotons)
+NOTICE (I3Tray): I3Tray finishing... (I3Tray.cxx:526 in void I3Tray::Execute(bool, unsigned int))
+Settings :
+  Run number : 190303
+  File number : 1000
+  GCD file : /cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz
+  Ice model : ICEMODEL/spice_bfr-v2
+  Hole ice model : ANGSENS/angsens/as.flasher_p1_0.30_p2_-1
+  Efficiency : 1.2
+  Oversizing : 1
+[Wed Dec  4 12:59:47 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst
+Finished upload.
+[Wed Dec  4 12:59:50 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst
+Finished upload.

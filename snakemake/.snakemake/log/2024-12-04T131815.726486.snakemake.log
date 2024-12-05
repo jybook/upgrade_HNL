@@ -1,0 +1,1216 @@
+Building DAG of jobs...
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/14_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/10_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/18_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/3_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/2_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/4_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/6_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/9_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/19_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/17_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/5_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/11_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/12_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/15_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/13_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/8_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/16_0.i3.zst from storage.
+Retrieving /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/7_0.i3.zst from storage.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/14_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/10_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/18_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/3_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/2_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/4_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/6_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/9_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/19_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/17_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/5_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/11_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/12_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/15_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/13_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/8_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/16_0.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/7_0.i3.zst
+Finished retrieval.
+SLURM run ID: 4dfd2890-fdbf-4115-805f-03cb7e43c405
+Using shell: /usr/bin/bash
+Provided remote nodes: 10
+Job stats:
+job         count
+--------  -------
+all             1
+detector       19
+photon         19
+step4          19
+total          58
+
+Select jobs to execute...
+Execute 10 jobs...
+
+[Wed Dec  4 13:18:20 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/10_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst (send to storage)
+    jobid: 33
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst (send to storage)
+    wildcards: array_number=10, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/10_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst --runnumber 190303 --filenr 10000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 33 has been submitted with SLURM jobid 60840403 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/10_0/60840403.log).
+
+[Wed Dec  4 13:18:23 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/19_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst (send to storage)
+    jobid: 60
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst (send to storage)
+    wildcards: array_number=19, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/19_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst --runnumber 190303 --filenr 19000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 60 has been submitted with SLURM jobid 60840404 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/19_0/60840404.log).
+
+[Wed Dec  4 13:18:23 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/17_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst (send to storage)
+    jobid: 54
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst (send to storage)
+    wildcards: array_number=17, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/17_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst --runnumber 190303 --filenr 17000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 54 has been submitted with SLURM jobid 60840415 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/17_0/60840415.log).
+
+[Wed Dec  4 13:18:24 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/2_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst (send to storage)
+    jobid: 9
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst (send to storage)
+    wildcards: array_number=2, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/2_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst --runnumber 190303 --filenr 2000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 9 has been submitted with SLURM jobid 60840416 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/2_0/60840416.log).
+
+[Wed Dec  4 13:18:24 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/13_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst (send to storage)
+    jobid: 42
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst (send to storage)
+    wildcards: array_number=13, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/13_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst --runnumber 190303 --filenr 13000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 42 has been submitted with SLURM jobid 60840417 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/13_0/60840417.log).
+
+[Wed Dec  4 13:18:24 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/11_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst (send to storage)
+    jobid: 36
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst (send to storage)
+    wildcards: array_number=11, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/11_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst --runnumber 190303 --filenr 11000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 36 has been submitted with SLURM jobid 60840418 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/11_0/60840418.log).
+
+[Wed Dec  4 13:18:24 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/9_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst (send to storage)
+    jobid: 30
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst (send to storage)
+    wildcards: array_number=9, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/9_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst --runnumber 190303 --filenr 9000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 30 has been submitted with SLURM jobid 60840419 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/9_0/60840419.log).
+
+[Wed Dec  4 13:18:24 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/5_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst (send to storage)
+    jobid: 18
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst (send to storage)
+    wildcards: array_number=5, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/5_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst --runnumber 190303 --filenr 5000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 18 has been submitted with SLURM jobid 60840420 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/5_0/60840420.log).
+
+[Wed Dec  4 13:18:24 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/18_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst (send to storage)
+    jobid: 57
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst (send to storage)
+    wildcards: array_number=18, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/18_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst --runnumber 190303 --filenr 18000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 57 has been submitted with SLURM jobid 60840421 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/18_0/60840421.log).
+
+[Wed Dec  4 13:18:25 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/3_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst (send to storage)
+    jobid: 12
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst (send to storage)
+    wildcards: array_number=3, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/3_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst --runnumber 190303 --filenr 3000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 12 has been submitted with SLURM jobid 60840422 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/3_0/60840422.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/19_0.i3.zst
+[Wed Dec  4 13:26:21 2024]
+Finished job 60.
+1 of 58 steps (2%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 13:26:21 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/16_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst (send to storage)
+    jobid: 51
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst (send to storage)
+    wildcards: array_number=16, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/16_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst --runnumber 190303 --filenr 16000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 51 has been submitted with SLURM jobid 60843730 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/16_0/60843730.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/10_0.i3.zst
+[Wed Dec  4 13:27:22 2024]
+Finished job 33.
+2 of 58 steps (3%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 13:27:22 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/14_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst (send to storage)
+    jobid: 45
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst (send to storage)
+    wildcards: array_number=14, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/14_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst --runnumber 190303 --filenr 14000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 45 has been submitted with SLURM jobid 60844504 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/14_0/60844504.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/17_0.i3.zst
+[Wed Dec  4 13:34:52 2024]
+Finished job 54.
+3 of 58 steps (5%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/2_0.i3.zst
+[Wed Dec  4 13:34:53 2024]
+Finished job 9.
+4 of 58 steps (7%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 13:34:53 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/12_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst (send to storage)
+    jobid: 39
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst (send to storage)
+    wildcards: array_number=12, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/12_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst --runnumber 190303 --filenr 12000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 39 has been submitted with SLURM jobid 60846453 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/12_0/60846453.log).
+
+[Wed Dec  4 13:34:54 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/8_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst (send to storage)
+    jobid: 27
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst (send to storage)
+    wildcards: array_number=8, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/8_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst --runnumber 190303 --filenr 8000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 27 has been submitted with SLURM jobid 60846454 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/8_0/60846454.log).
+Select jobs to execute...
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/13_0.i3.zst
+[Wed Dec  4 13:42:23 2024]
+Finished job 42.
+5 of 58 steps (9%) done
+Execute 1 jobs...
+
+[Wed Dec  4 13:42:23 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst (send to storage)
+    jobid: 41
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst (retrieve from storage)
+    wildcards: array_number=13, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst --runnumber 190303 --filenr 13000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 41 has been submitted with SLURM jobid 60846878 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/13_0/60846878.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/11_0.i3.zst
+[Wed Dec  4 13:42:33 2024]
+Finished job 36.
+6 of 58 steps (10%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 13:42:33 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst (send to storage)
+    jobid: 35
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst (retrieve from storage)
+    wildcards: array_number=11, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst --runnumber 190303 --filenr 11000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 35 has been submitted with SLURM jobid 60846885 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/11_0/60846885.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/13_0.i3.zst
+[Wed Dec  4 13:47:14 2024]
+Finished job 41.
+7 of 58 steps (12%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/11_0.i3.zst
+[Wed Dec  4 13:47:14 2024]
+Finished job 35.
+8 of 58 steps (14%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 13:47:14 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/4_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst (send to storage)
+    jobid: 15
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst (send to storage)
+    wildcards: array_number=4, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/4_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst --runnumber 190303 --filenr 4000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 15 has been submitted with SLURM jobid 60847139 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/4_0/60847139.log).
+
+[Wed Dec  4 13:47:15 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/11_0.i3.zst (send to storage)
+    jobid: 34
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/11_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst (retrieve from storage)
+    wildcards: array_number=11, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/11_0.i3.zst
+Job 34 has been submitted with SLURM jobid 60847141 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/11_0/60847141.log).
+Select jobs to execute...
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/11_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/11_0.i3.zst
+[Wed Dec  4 13:48:53 2024]
+Finished job 34.
+9 of 58 steps (16%) done
+Execute 1 jobs...
+
+[Wed Dec  4 13:48:53 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/7_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (send to storage)
+    jobid: 24
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (send to storage)
+    wildcards: array_number=7, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/7_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst --runnumber 190303 --filenr 7000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 24 has been submitted with SLURM jobid 60847227 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/7_0/60847227.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/9_0.i3.zst
+[Wed Dec  4 13:51:24 2024]
+Finished job 30.
+10 of 58 steps (17%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/5_0.i3.zst
+[Wed Dec  4 13:51:25 2024]
+Finished job 18.
+11 of 58 steps (19%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 13:51:25 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst (send to storage)
+    jobid: 17
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst (retrieve from storage)
+    wildcards: array_number=5, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst --runnumber 190303 --filenr 5000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 17 has been submitted with SLURM jobid 60847373 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/5_0/60847373.log).
+
+[Wed Dec  4 13:51:25 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/6_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst (send to storage)
+    jobid: 21
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst (send to storage)
+    wildcards: array_number=6, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/6_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst --runnumber 190303 --filenr 6000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 21 has been submitted with SLURM jobid 60847374 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/6_0/60847374.log).
+Select jobs to execute...
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/5_0.i3.zst
+[Wed Dec  4 13:56:05 2024]
+Finished job 17.
+12 of 58 steps (21%) done
+Execute 1 jobs...
+
+[Wed Dec  4 13:56:05 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst (send to storage)
+    jobid: 29
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst (retrieve from storage)
+    wildcards: array_number=9, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst --runnumber 190303 --filenr 9000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 29 has been submitted with SLURM jobid 60848660 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/9_0/60848660.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/18_0.i3.zst
+[Wed Dec  4 13:58:35 2024]
+Finished job 57.
+13 of 58 steps (22%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 13:58:35 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst (send to storage)
+    jobid: 8
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst (retrieve from storage)
+    wildcards: array_number=2, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst --runnumber 190303 --filenr 2000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 8 has been submitted with SLURM jobid 60849448 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/2_0/60849448.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/3_0.i3.zst
+[Wed Dec  4 13:59:05 2024]
+Finished job 12.
+14 of 58 steps (24%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 13:59:05 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst (send to storage)
+    jobid: 53
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst (retrieve from storage)
+    wildcards: array_number=17, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst --runnumber 190303 --filenr 17000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 53 has been submitted with SLURM jobid 60849574 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/17_0/60849574.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/9_0.i3.zst
+[Wed Dec  4 14:01:35 2024]
+Finished job 29.
+15 of 58 steps (26%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:01:35 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/9_0.i3.zst (send to storage)
+    jobid: 28
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/9_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst (retrieve from storage)
+    wildcards: array_number=9, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/9_0.i3.zst
+Job 28 has been submitted with SLURM jobid 60849746 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/9_0/60849746.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/2_0.i3.zst
+[Wed Dec  4 14:03:16 2024]
+Finished job 8.
+16 of 58 steps (28%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/9_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/9_0.i3.zst
+[Wed Dec  4 14:03:16 2024]
+Finished job 28.
+17 of 58 steps (29%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 14:03:16 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst (send to storage)
+    jobid: 56
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst (retrieve from storage)
+    wildcards: array_number=18, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst --runnumber 190303 --filenr 18000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 56 has been submitted with SLURM jobid 60849840 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/18_0/60849840.log).
+
+[Wed Dec  4 14:03:16 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst (send to storage)
+    jobid: 11
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst (retrieve from storage)
+    wildcards: array_number=3, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst --runnumber 190303 --filenr 3000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 11 has been submitted with SLURM jobid 60849841 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/3_0/60849841.log).
+Select jobs to execute...
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/17_0.i3.zst
+[Wed Dec  4 14:04:16 2024]
+Finished job 53.
+18 of 58 steps (31%) done
+Execute 1 jobs...
+
+[Wed Dec  4 14:04:16 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/5_0.i3.zst (send to storage)
+    jobid: 16
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/5_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst (retrieve from storage)
+    wildcards: array_number=5, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/5_0.i3.zst
+Job 16 has been submitted with SLURM jobid 60849900 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/5_0/60849900.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/5_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/5_0.i3.zst
+[Wed Dec  4 14:05:56 2024]
+Finished job 16.
+19 of 58 steps (33%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:05:56 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst (send to storage)
+    jobid: 59
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst (retrieve from storage)
+    wildcards: array_number=19, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst --runnumber 190303 --filenr 19000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 59 has been submitted with SLURM jobid 60849972 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/19_0/60849972.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/16_0.i3.zst
+[Wed Dec  4 14:06:27 2024]
+Finished job 51.
+20 of 58 steps (34%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:06:27 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/17_0.i3.zst (send to storage)
+    jobid: 52
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/17_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst (retrieve from storage)
+    wildcards: array_number=17, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/17_0.i3.zst
+Job 52 has been submitted with SLURM jobid 60849992 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/17_0/60849992.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/14_0.i3.zst
+[Wed Dec  4 14:07:27 2024]
+Finished job 45.
+21 of 58 steps (36%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:07:27 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/13_0.i3.zst (send to storage)
+    jobid: 40
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/13_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst (retrieve from storage)
+    wildcards: array_number=13, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/13_0.i3.zst
+Job 40 has been submitted with SLURM jobid 60850051 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/13_0/60850051.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/17_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/17_0.i3.zst
+[Wed Dec  4 14:07:36 2024]
+Finished job 52.
+22 of 58 steps (38%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:07:36 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst (send to storage)
+    jobid: 7
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst (retrieve from storage)
+    wildcards: array_number=2, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+Job 7 has been submitted with SLURM jobid 60850058 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/2_0/60850058.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/18_0.i3.zst
+[Wed Dec  4 14:07:47 2024]
+Finished job 56.
+23 of 58 steps (40%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/3_0.i3.zst
+[Wed Dec  4 14:07:47 2024]
+Finished job 11.
+24 of 58 steps (41%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 14:07:47 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst (send to storage)
+    jobid: 50
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst (retrieve from storage)
+    wildcards: array_number=16, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst --runnumber 190303 --filenr 16000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 50 has been submitted with SLURM jobid 60850062 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/16_0/60850062.log).
+
+[Wed Dec  4 14:07:47 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/3_0.i3.zst (send to storage)
+    jobid: 10
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/3_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst (retrieve from storage)
+    wildcards: array_number=3, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/3_0.i3.zst
+Job 10 has been submitted with SLURM jobid 60850063 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/3_0/60850063.log).
+Select jobs to execute...
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/13_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/13_0.i3.zst
+[Wed Dec  4 14:08:46 2024]
+Finished job 40.
+25 of 58 steps (43%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst
+[Wed Dec  4 14:08:47 2024]
+Finished job 7.
+26 of 58 steps (45%) done
+Execute 2 jobs...
+
+[Wed Dec  4 14:08:47 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst (send to storage)
+    jobid: 44
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst (retrieve from storage)
+    wildcards: array_number=14, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst --runnumber 190303 --filenr 14000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 44 has been submitted with SLURM jobid 60850116 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/14_0/60850116.log).
+
+[Wed Dec  4 14:08:47 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/18_0.i3.zst (send to storage)
+    jobid: 55
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/18_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst (retrieve from storage)
+    wildcards: array_number=18, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/18_0.i3.zst
+Job 55 has been submitted with SLURM jobid 60850118 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/18_0/60850118.log).
+Select jobs to execute...
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/3_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/3_0.i3.zst
+[Wed Dec  4 14:08:56 2024]
+Finished job 10.
+27 of 58 steps (47%) done
+Execute 1 jobs...
+
+[Wed Dec  4 14:08:56 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst (send to storage)
+    jobid: 3
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst (send to storage)
+    wildcards: array_number=0, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst --runnumber 190303 --filenr 0 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 3 has been submitted with SLURM jobid 60850123 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/0_0/60850123.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/18_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/18_0.i3.zst
+[Wed Dec  4 14:09:57 2024]
+Finished job 55.
+28 of 58 steps (48%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:09:57 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/15_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst (send to storage)
+    jobid: 48
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst (send to storage)
+    wildcards: array_number=15, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=450, slurm_extra='--gres=gpu:4'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/15_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst --runnumber 190303 --filenr 15000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu
+Job 48 has been submitted with SLURM jobid 60850210 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/15_0/60850210.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/19_0.i3.zst
+[Wed Dec  4 14:10:27 2024]
+Finished job 59.
+29 of 58 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:10:27 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/19_0.i3.zst (send to storage)
+    jobid: 58
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/19_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst (retrieve from storage)
+    wildcards: array_number=19, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/19_0.i3.zst
+Job 58 has been submitted with SLURM jobid 60850235 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/19_0/60850235.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/19_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/19_0.i3.zst
+[Wed Dec  4 14:11:27 2024]
+Finished job 58.
+30 of 58 steps (52%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:11:27 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst (send to storage)
+    jobid: 32
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst (retrieve from storage)
+    wildcards: array_number=10, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst --runnumber 190303 --filenr 10000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 32 has been submitted with SLURM jobid 60850284 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/10_0/60850284.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/16_0.i3.zst
+[Wed Dec  4 14:12:28 2024]
+Finished job 50.
+31 of 58 steps (53%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:12:28 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/16_0.i3.zst (send to storage)
+    jobid: 49
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/16_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst (retrieve from storage)
+    wildcards: array_number=16, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/16_0.i3.zst
+Job 49 has been submitted with SLURM jobid 60850326 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/16_0/60850326.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/14_0.i3.zst
+[Wed Dec  4 14:13:28 2024]
+Finished job 44.
+32 of 58 steps (55%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/16_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/16_0.i3.zst
+[Wed Dec  4 14:13:28 2024]
+Finished job 49.
+33 of 58 steps (57%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:13:28 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/14_0.i3.zst (send to storage)
+    jobid: 43
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/14_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst (retrieve from storage)
+    wildcards: array_number=14, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/14_0.i3.zst
+Job 43 has been submitted with SLURM jobid 60850361 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/14_0/60850361.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/12_0.i3.zst
+[Wed Dec  4 14:14:29 2024]
+Finished job 39.
+34 of 58 steps (59%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:14:29 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst (send to storage)
+    jobid: 38
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst (retrieve from storage)
+    wildcards: array_number=12, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst --runnumber 190303 --filenr 12000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 38 has been submitted with SLURM jobid 60850409 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/12_0/60850409.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/14_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/14_0.i3.zst
+[Wed Dec  4 14:14:38 2024]
+Finished job 43.
+35 of 58 steps (60%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/8_0.i3.zst
+[Wed Dec  4 14:15:39 2024]
+Finished job 27.
+36 of 58 steps (62%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:15:39 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst (send to storage)
+    jobid: 26
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst (retrieve from storage)
+    wildcards: array_number=8, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst --runnumber 190303 --filenr 8000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 26 has been submitted with SLURM jobid 60850461 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/8_0/60850461.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/10_0.i3.zst
+[Wed Dec  4 14:16:38 2024]
+Finished job 32.
+37 of 58 steps (64%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:16:38 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/10_0.i3.zst (send to storage)
+    jobid: 31
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/10_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst (retrieve from storage)
+    wildcards: array_number=10, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/10_0.i3.zst
+Job 31 has been submitted with SLURM jobid 60850496 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/10_0/60850496.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/10_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/10_0.i3.zst
+[Wed Dec  4 14:18:18 2024]
+Finished job 31.
+38 of 58 steps (66%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/12_0.i3.zst
+[Wed Dec  4 14:19:19 2024]
+Finished job 38.
+39 of 58 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:19:19 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/12_0.i3.zst (send to storage)
+    jobid: 37
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/12_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst (retrieve from storage)
+    wildcards: array_number=12, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/12_0.i3.zst
+Job 37 has been submitted with SLURM jobid 60850819 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/12_0/60850819.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/12_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/12_0.i3.zst
+[Wed Dec  4 14:20:19 2024]
+Finished job 37.
+40 of 58 steps (69%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/8_0.i3.zst
+[Wed Dec  4 14:20:30 2024]
+Finished job 26.
+41 of 58 steps (71%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:20:30 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/8_0.i3.zst (send to storage)
+    jobid: 25
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/8_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst (retrieve from storage)
+    wildcards: array_number=8, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/8_0.i3.zst
+Job 25 has been submitted with SLURM jobid 60850887 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/8_0/60850887.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/8_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/8_0.i3.zst
+[Wed Dec  4 14:21:29 2024]
+Finished job 25.
+42 of 58 steps (72%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/4_0.i3.zst
+[Wed Dec  4 14:22:30 2024]
+Finished job 15.
+43 of 58 steps (74%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:22:30 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst (send to storage)
+    jobid: 14
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst (retrieve from storage)
+    wildcards: array_number=4, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst --runnumber 190303 --filenr 4000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 14 has been submitted with SLURM jobid 60850991 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/4_0/60850991.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/7_0.i3.zst
+[Wed Dec  4 14:23:00 2024]
+Finished job 24.
+44 of 58 steps (76%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:23:00 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst (send to storage)
+    jobid: 23
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (retrieve from storage)
+    wildcards: array_number=7, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst --runnumber 190303 --filenr 7000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 23 has been submitted with SLURM jobid 60851020 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/7_0/60851020.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst
+[Wed Dec  4 14:27:40 2024]
+Finished job 23.
+45 of 58 steps (78%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:27:40 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/7_0.i3.zst (send to storage)
+    jobid: 22
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/7_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst (retrieve from storage)
+    wildcards: array_number=7, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/7_0.i3.zst
+Job 22 has been submitted with SLURM jobid 60851271 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/7_0/60851271.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/4_0.i3.zst
+[Wed Dec  4 14:27:50 2024]
+Finished job 14.
+46 of 58 steps (79%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:27:50 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/4_0.i3.zst (send to storage)
+    jobid: 13
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/4_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst (retrieve from storage)
+    wildcards: array_number=4, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/4_0.i3.zst
+Job 13 has been submitted with SLURM jobid 60851276 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/4_0/60851276.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/7_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst
+[Wed Dec  4 14:28:50 2024]
+Finished job 22.
+47 of 58 steps (81%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/4_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/4_0.i3.zst
+[Wed Dec  4 14:28:50 2024]
+Finished job 13.
+48 of 58 steps (83%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/6_0.i3.zst
+[Wed Dec  4 14:30:31 2024]
+Finished job 21.
+49 of 58 steps (84%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:30:31 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst (send to storage)
+    jobid: 20
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst (retrieve from storage)
+    wildcards: array_number=6, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst --runnumber 190303 --filenr 6000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 20 has been submitted with SLURM jobid 60853624 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/6_0/60853624.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_0.i3.zst
+[Wed Dec  4 14:30:41 2024]
+Finished job 3.
+50 of 58 steps (86%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:30:41 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst (send to storage)
+    jobid: 2
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst (retrieve from storage)
+    wildcards: array_number=0, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst --runnumber 190303 --filenr 0 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 2 has been submitted with SLURM jobid 60853632 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/0_0/60853632.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/6_0.i3.zst
+[Wed Dec  4 14:36:42 2024]
+Finished job 20.
+51 of 58 steps (88%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/0_0.i3.zst
+[Wed Dec  4 14:36:42 2024]
+Finished job 2.
+52 of 58 steps (90%) done
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Dec  4 14:36:42 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_0.i3.zst (send to storage)
+    jobid: 1
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst (retrieve from storage)
+    wildcards: array_number=0, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_0.i3.zst
+Job 1 has been submitted with SLURM jobid 60855939 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/0_0/60855939.log).
+
+[Wed Dec  4 14:36:42 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/6_0.i3.zst (send to storage)
+    jobid: 19
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/6_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst (retrieve from storage)
+    wildcards: array_number=6, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/6_0.i3.zst
+Job 19 has been submitted with SLURM jobid 60855940 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/6_0/60855940.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/0_0.i3.zst
+[Wed Dec  4 14:37:41 2024]
+Finished job 1.
+53 of 58 steps (91%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/6_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/6_0.i3.zst
+[Wed Dec  4 14:37:42 2024]
+Finished job 19.
+54 of 58 steps (93%) done
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/15_0.i3.zst
+[Wed Dec  4 14:38:12 2024]
+Finished job 48.
+55 of 58 steps (95%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:38:12 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst (send to storage)
+    jobid: 47
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst (retrieve from storage)
+    wildcards: array_number=15, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst --runnumber 190303 --filenr 15000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Job 47 has been submitted with SLURM jobid 60856015 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_detector/15_0/60856015.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/15_0.i3.zst
+[Wed Dec  4 14:44:12 2024]
+Finished job 47.
+56 of 58 steps (97%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:44:12 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/15_0.i3.zst (send to storage)
+    jobid: 46
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/15_0.i3.zst (send to storage); Input files updated by another job: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst (retrieve from storage)
+    wildcards: array_number=15, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/15_0.i3.zst
+Job 46 has been submitted with SLURM jobid 60856436 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_step4/15_0/60856436.log).
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/15_0.i3.zst
+Finished upload.
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/15_0.i3.zst
+[Wed Dec  4 14:45:52 2024]
+Finished job 46.
+57 of 58 steps (98%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:45:52 2024]
+rule all:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/3_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/4_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/5_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/6_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/7_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/8_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/9_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/10_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/11_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/12_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/13_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/14_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/15_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/16_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/17_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/18_0.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/19_0.i3.zst (retrieve from storage)
+    jobid: 0
+    reason: Rules with a run or shell declaration but no output are always executed.
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+Job 0 has been submitted with SLURM jobid 60856567 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_all/60856567.log).
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/3_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/4_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/5_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/6_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/7_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/8_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/9_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/10_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/11_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/12_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/13_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/14_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/15_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/16_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/17_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/18_0.i3.zst
+Removing local copy of storage file: /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/19_0.i3.zst
+[Wed Dec  4 14:46:53 2024]
+Finished job 0.
+58 of 58 steps (100%) done
+Complete log: .snakemake/log/2024-12-04T131815.726486.snakemake.log

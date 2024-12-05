@@ -1,0 +1,110 @@
+Building DAG of jobs...
+Retrieving /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst from storage.
+Retrieving /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst from storage.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst
+Finished retrieval.
+SLURM run ID: 9c5d6a5b-ac58-4e91-9057-4c39b6d51330
+Using shell: /usr/bin/bash
+Provided remote nodes: 10
+Job stats:
+job         count
+--------  -------
+all             1
+detector        2
+photon          2
+step4           2
+total           7
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Nov 27 13:37:36 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    jobid: 3
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    wildcards: array_number=0, file_number=1
+    resources: mem_mb=8000, mem_mib=7630, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=gpu_requeue, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst --filenr 1 --icemodel 'ICEMODEL/spice_bfr-v21' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 3 has been submitted with SLURM jobid 59912083 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/0_1/59912083.log).
+
+[Wed Nov 27 13:37:40 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    jobid: 7
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=8000, mem_mib=7630, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=gpu_requeue, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst --filenr 1001 --icemodel 'ICEMODEL/spice_bfr-v21' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 7 has been submitted with SLURM jobid 59912084 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/1_1/59912084.log).
+[Wed Nov 27 13:38:34 2024]
+Error in rule photon:
+    message: SLURM-job '59912083' failed, SLURM status is: 'FAILED'. For further error details see the cluster/cloud log and the log files of the involved rule(s).
+    jobid: 3
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/0_1/59912083.log (check log file(s) for error details)
+    shell:
+        set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst --filenr 1 --icemodel 'ICEMODEL/spice_bfr-v21' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    external_jobid: 59912083
+
+[Wed Nov 27 13:38:34 2024]
+Error in rule photon:
+    message: SLURM-job '59912084' failed, SLURM status is: 'FAILED'. For further error details see the cluster/cloud log and the log files of the involved rule(s).
+    jobid: 7
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/1_1/59912084.log (check log file(s) for error details)
+    shell:
+        set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst --filenr 1001 --icemodel 'ICEMODEL/spice_bfr-v21' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    external_jobid: 59912084
+
+Removing local copy of storage file: /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst
+Trying to restart job 3.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 13:38:34 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    jobid: 3
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    wildcards: array_number=0, file_number=1
+    resources: mem_mb=8000, mem_mib=7630, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=gpu_requeue, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst --filenr 1 --icemodel 'ICEMODEL/spice_bfr-v21' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 3 has been submitted with SLURM jobid 59912269 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/0_1/59912269.log).
+Removing local copy of storage file: /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Trying to restart job 7.
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 13:38:36 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    jobid: 7
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=8000, mem_mib=7630, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=gpu_requeue, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst --filenr 1001 --icemodel 'ICEMODEL/spice_bfr-v21' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 7 has been submitted with SLURM jobid 59912280 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/1_1/59912280.log).
+Waiting at most 120 seconds for missing files.
+MissingOutputException in rule photon in file /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/Snakefile, line 91:
+Job 3  completed successfully, but some output files are missing. Missing files after 120 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (missing locally, parent dir contents: )
+Waiting at most 120 seconds for missing files.
+Terminating processes on user request, this might take some time.
+Complete log: .snakemake/log/2024-11-27T133730.349975.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

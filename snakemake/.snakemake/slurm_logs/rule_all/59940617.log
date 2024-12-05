@@ -1,0 +1,39 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided remote nodes: 1
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 17:31:04 2024]
+rule all:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_1.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_1.i3.zst (retrieve from storage)
+    jobid: 0
+    reason: Rules with a run or shell declaration but no output are always executed.
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 17:31:10 2024]
+localrule all:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/0_1.i3.zst (retrieve from storage), /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_1.i3.zst (retrieve from storage)
+    jobid: 0
+    reason: Rules with a run or shell declaration but no output are always executed.
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=/tmp, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+[Wed Nov 27 17:31:10 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+[Wed Nov 27 17:31:11 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.

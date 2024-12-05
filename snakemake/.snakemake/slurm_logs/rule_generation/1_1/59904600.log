@@ -1,0 +1,47 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided remote nodes: 1
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 13:09:06 2024]
+rule generation:
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+touch /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 13:09:13 2024]
+localrule generation:
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=/tmp, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+touch /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+[Wed Nov 27 13:09:22 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Finished upload.
+[Wed Nov 27 13:09:24 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Finished upload.

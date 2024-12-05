@@ -1,0 +1,72 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided remote nodes: 1
+Provided resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:08:00 2024]
+rule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=2, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:08:07 2024]
+localrule step4:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=2, file_number=0
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=/tmp, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/2_0.i3.zst --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! (I3StaticTWC.cxx:121 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+WARN (I3ConditionalModule): None of the requested triggers was found! This is the last (20th) warning of this kind. (I3StaticTWC.cxx:123 in void I3StaticTWC<Response>::Physics(I3FramePtr) [with Response = std::vector<I3RecoPulse>; I3FramePtr = boost::shared_ptr<I3Frame>])
+NOTICE (I3Tray): I3Tray finishing... (I3Tray.cxx:526 in void I3Tray::Execute(bool, unsigned int))
+WARN (I3ConditionalModule): In total, 172 events had none of the requested triggers! (I3StaticTWC.cxx:176 in void I3StaticTWC<Response>::Finish() [with Response = std::vector<I3RecoPulse>])
+Max memory usage : 623 MB (0 MB for children)
+[Wed Dec  4 14:08:20 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+Finished upload.
+[Wed Dec  4 14:08:20 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/2_0.i3.zst
+Finished upload.

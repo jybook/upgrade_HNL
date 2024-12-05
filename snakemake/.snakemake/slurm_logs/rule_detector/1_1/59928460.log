@@ -1,0 +1,67 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided remote nodes: 1
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 15:43:56 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /data/sim/IceCubeUpgrade/geometries/GCDs/GeoCalibDetectorStatus_ICUpgrade.v58.mixed.V1.i3.bz2 --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst --runnumber 190303 --filenr 1001 --mdomglass vitrovex ----pulse_bin_width 2.0 --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 15:44:04 2024]
+localrule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=/tmp, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /data/sim/IceCubeUpgrade/geometries/GCDs/GeoCalibDetectorStatus_ICUpgrade.v58.mixed.V1.i3.bz2 --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst --runnumber 190303 --filenr 1001 --mdomglass vitrovex ----pulse_bin_width 2.0 --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+python: can't open file '/oscNext/resources/scripts/mc_production/step3_hits_detector.py': [Errno 2] No such file or directory
+[Wed Nov 27 15:44:06 2024]
+Error in rule detector:
+    jobid: 0
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst (send to storage)
+    shell:
+        set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /data/sim/IceCubeUpgrade/geometries/GCDs/GeoCalibDetectorStatus_ICUpgrade.v58.mixed.V1.i3.bz2 --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst --runnumber 190303 --filenr 1001 --mdomglass vitrovex ----pulse_bin_width 2.0 --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Storing output in storage.
+WorkflowError:
+At least one job did not complete successfully.
+srun: error: holy7c24502: task 0: Exited with exit code 1
+[Wed Nov 27 15:44:06 2024]
+Error in rule detector:
+    jobid: 0
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst (send to storage)
+    shell:
+        set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python $I3_SRC/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /data/sim/IceCubeUpgrade/geometries/GCDs/GeoCalibDetectorStatus_ICUpgrade.v58.mixed.V1.i3.bz2 --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/1_1.i3.zst --runnumber 190303 --filenr 1001 --mdomglass vitrovex ----pulse_bin_width 2.0 --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_1.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Storing output in storage.
+WorkflowError:
+At least one job did not complete successfully.

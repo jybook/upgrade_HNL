@@ -1,0 +1,30 @@
+Building DAG of jobs...
+Retrieving /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst from storage.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst
+Finished retrieval.
+SLURM run ID: 7ee941e0-2b10-475b-8891-58d9f5fb68ca
+Using shell: /usr/bin/bash
+Provided remote nodes: 10
+Job stats:
+job         count
+--------  -------
+all             1
+detector        1
+photon          1
+step4           1
+total           4
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Dec  1 20:55:37 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst (send to storage)
+    jobid: 3
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst (send to storage)
+    wildcards: array_number=1, file_number=0
+    resources: mem_mb=12000, mem_mib=11445, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=arguelles_delgado_gpu, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_0.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/1_0.i3.zst --runnumber 190303 --filenr 1000 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 3 has been submitted with SLURM jobid 60381771 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/1_0/60381771.log).

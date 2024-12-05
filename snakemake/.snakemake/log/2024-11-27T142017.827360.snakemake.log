@@ -1,0 +1,75 @@
+Building DAG of jobs...
+Retrieving /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst from storage.
+Retrieving /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst from storage.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Finished retrieval.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst
+Finished retrieval.
+SLURM run ID: 7074539a-e466-417a-9bbd-78bff34c6e67
+Using shell: /usr/bin/bash
+Provided remote nodes: 10
+Job stats:
+job         count
+--------  -------
+all             1
+detector        2
+photon          2
+step4           2
+total           7
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Wed Nov 27 14:20:35 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    jobid: 3
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    wildcards: array_number=0, file_number=1
+    resources: mem_mb=8000, mem_mib=7630, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=gpu_requeue, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst --runnumber 190303 --filenr 1 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 3 has been submitted with SLURM jobid 59924325 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/0_1/59924325.log).
+
+[Wed Nov 27 14:20:38 2024]
+rule photon:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    jobid: 7
+    reason: Missing output files: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    wildcards: array_number=1, file_number=1
+    resources: mem_mb=8000, mem_mib=7630, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=gpu_requeue, runtime=300, slurm_extra='--gres=gpu:1'
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst --runnumber 190303 --filenr 1001 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+Job 7 has been submitted with SLURM jobid 59924327 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/1_1/59924327.log).
+[Wed Nov 27 14:22:42 2024]
+Error in rule photon:
+    message: SLURM-job '59924325' failed, SLURM status is: 'FAILED'. For further error details see the cluster/cloud log and the log files of the involved rule(s).
+    jobid: 3
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst (send to storage)
+    log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/0_1/59924325.log (check log file(s) for error details)
+    shell:
+        set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/0_1.i3.zst --runnumber 190303 --filenr 1 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    external_jobid: 59924325
+
+[Wed Nov 27 14:22:42 2024]
+Error in rule photon:
+    message: SLURM-job '59924327' failed, SLURM status is: 'FAILED'. For further error details see the cluster/cloud log and the log files of the involved rule(s).
+    jobid: 7
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst (send to storage)
+    log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_photon/1_1/59924327.log (check log file(s) for error details)
+    shell:
+        set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst --outfile /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade/190303/Phot/1_1.i3.zst --runnumber 190303 --filenr 1001 --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    external_jobid: 59924327
+
+Removing local copy of storage file: /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst
+Removing local copy of storage file: /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/1_1.i3.zst
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-11-27T142017.827360.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

@@ -1,0 +1,28 @@
+Building DAG of jobs...
+Retrieving /n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_1.i3.zst from storage.
+Retrieving from storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_1.i3.zst
+Finished retrieval.
+SLURM run ID: d0b51dcb-538d-40fd-9b3c-1e43c2118965
+Using shell: /usr/bin/bash
+Provided remote nodes: 10
+Job stats:
+job      count
+-----  -------
+all          1
+total        1
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Nov 27 17:40:41 2024]
+rule all:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Step4/1_1.i3.zst (retrieve from storage)
+    jobid: 0
+    reason: Rules with a run or shell declaration but no output are always executed.
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+Job 0 has been submitted with SLURM jobid 59942498 (log: /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/.snakemake/slurm_logs/rule_all/59942498.log).
+Terminating processes on user request, this might take some time.
+Complete log: .snakemake/log/2024-11-27T174038.217729.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

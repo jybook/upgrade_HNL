@@ -1,0 +1,132 @@
+'''
+An Attempt at a snakemake file to run upgrade simulations from photon level and onward
+
+Julia Book
+Nov. 2024
+'''
+# TODO: Make upgrade config files, conda environment
+configfile: "upgrade_config.yaml"
+conda: "upgrade_env.yaml"#"hnl_icetray.yaml"
+
+import numpy as np
+ARRAY_NUMS = np.arange(
+    0, int(config["n_files"]), 1
+)# numpy gives ranges on a half-open interval, so this gives 0-n_files.Last digit is step size
+FILE_NUMS = np.arange(0, 1, 1)
+
+
+rule all:
+    input:
+        expand(
+            "{output_prefix}/Upgrade1/{set_number}/Step4/{array_number}_{file_number}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+            array_number=ARRAY_NUMS,
+            file_number=FILE_NUMS,
+        ),
+    shell:
+        ""
+
+rule step4:
+    input:
+        expand(
+            "{output_prefix}/Upgrade1/{set_number}/Det/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+    output:
+        expand(
+            "{output_prefix}/Upgrade1/{set_number}/Step4/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+        # expand(
+        #     "{output_prefix}/Upgrade/{set_number}/Step4/{{array_number}}_{{file_number}}.hdf5",
+        #     output_prefix=config["output_prefix"],
+        #     set_number=config["set_number"],
+        # ),
+    resources:
+        mem_mb=24000,
+    threads: 
+        1,
+    shell:
+        "set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step4_preprocessing.py --gcd {config[gcd]} --infile {input} --outfile {output[0]}"
+       
+
+rule detector:
+    input:
+        expand(
+            "{output_prefix}/Upgrade1/{set_number}/Phot/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+    output:
+        expand(
+            "{output_prefix}/Upgrade1/{set_number}/Det/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+        # expand(
+        #     "{output_prefix}/Upgrade/{set_number}/Det/{{array_number}}_{{file_number}}.hdf5",
+        #     output_prefix=config["output_prefix"],
+        #     set_number=config["set_number"],
+        # ),
+    params:
+        seed=lambda wc: int(wc.array_number) * 1000 + int(wc.file_number),
+        pulse_bin_width = 2.0,
+        efficiency = config["DOM_EFFICIENCY"],
+        mdom_noise_file = '/cvmfs/icecube.opensciencegrid.org/users/gen2-optical-sim/geant_noise/npy/211217_mDOM_Noise_newPMTs_wQE/211217_mDOM_Noise_newPMTs_wQE.*.npy',
+        MDOM_GLASS = "vitrovex",
+    shell:
+        "set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile {config[gcd]} --outfile {output[0]} --runnumber {config[set_number]} --filenr {params.seed} --mdomglass {params.MDOM_GLASS} --pulse_bin_width {params.pulse_bin_width} --infile {input} --holeice {config[holeice]} --efficiency {params.efficiency}"
+        
+        
+rule photon:
+    input:
+        expand(
+            "{output_prefix}{set_number}/Gen/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+    output:
+        expand(
+            "{output_prefix}/Upgrade1/{set_number}/Phot/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+        # expand(
+        #     "{output_prefix}/Upgrade/{set_number}/Phot/{{array_number}}_{{file_number}}.hdf5",
+        #     output_prefix=config["output_prefix"],
+        #     set_number=config["set_number"],
+        # ),
+    params:
+        seed=lambda wc: int(wc.array_number) * 1000 + int(wc.file_number),
+    resources:
+        slurm_partition="arguelles_delgado_gpu",#"gpu_requeue",# 
+        slurm_extra="'--gres=gpu:4'",#"'--gres=gpu:nvidia_a100_1g.10gb:1'",
+        runtime=450,
+        mem_mb=12000,
+    shell: 
+        "set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step2_G4_photon_prop.py --gcdfile '/cvmfs/icecube.opensciencegrid.org/data/GCD/GeoCalibDetectorStatus_AVG_55697-57531_PASS2_SPE_withScaledNoise.i3.gz' --infile {input} --outfile {output[0]} --runnumber {config[set_number]} --filenr {params.seed} --icemodel 'ICEMODEL/spice_bfr-v2' --holeice 'ANGSENS/angsens/as.flasher_p1_0.30_p2_-1' --efficiency 1.2 --gpu"
+
+
+rule generation:
+    output:
+        expand(
+            "{output_prefix}/Upgrade/{set_number}/Gen/{{array_number}}_{{file_number}}.i3.zst",
+            output_prefix=config["output_prefix"],
+            set_number=config["set_number"],
+        ),
+        # expand(
+        #     "{output_prefix}{set_number}/Gen/{{array_number}}_{{file_number}}.hdf5",
+        #     output_prefix=config["output_prefix"],
+        #     set_number=config["set_number"],
+        # ),
+    params:
+        mass=config["hnl_mass"],
+        seed=lambda wc: int(wc.array_number) * 1000 + int(wc.file_number),
+        n_events={config["n_events"]},
+    shell:
+        # "touch {output[0]}"
+        "set +u; source /n/holylfs05/LABS/arguelles_delgado_lab/Lab/common_software/setup.sh; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/i3/build/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/HNL_search_v2/submission_scripts/process/process_Gen.py --seed {params.seed} --outfile {output[0]} --nEvents {config[n_events]} -m {config[hnl_mass]} --Dmin {config[d_min]} --Dmax {config[d_max]}"
+        

@@ -1,0 +1,119 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided remote nodes: 1
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:23:23 2024]
+rule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=7, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=<TBD>, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst --runnumber 190303 --filenr 7000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Dec  4 14:23:30 2024]
+localrule detector:
+    input: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (retrieve from storage)
+    output: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst (send to storage)
+    jobid: 0
+    reason: Forced execution
+    wildcards: array_number=7, file_number=0
+    resources: mem_mb=10000, mem_mib=9537, disk_mb=1000, disk_mib=954, tmpdir=/tmp, slurm_account=arguelles_delgado_lab, slurm_partition=shared, runtime=60
+
+set +u; eval `/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1/setup.sh`; export PYTHONPATH=$PYTHONPATH:/n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge; /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/build_py3-v4.2.1/env-shell.sh python /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/icetray_upgrade/icetray/oscNext/resources/scripts/mc_production/step3_hits_detector.py  --gcdfile /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 --outfile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst --runnumber 190303 --filenr 7000 --mdomglass vitrovex --pulse_bin_width 2.0 --infile /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst --holeice ANGSENS/angsens/as.flasher_p1_0.30_p2_-1 --efficiency 1.0
+INFO (I3Tray): sprngrandom: Seed = 190303 (I3Tray.py:242 in __call__)
+INFO (I3Tray): sprngrandom: StreamNum = 7000 (I3Tray.py:242 in __call__)
+INFO (I3Tray): sprngrandom: NStreams = 100000 (I3Tray.py:242 in __call__)
+INFO (I3Tray): sprngrandom: instatefile =  (I3Tray.py:242 in __call__)
+INFO (I3Tray): sprngrandom: outstatefile =  (I3Tray.py:242 in __call__)
+INFO (Python): Will calculate PEs for IceCube with photocathode area equivalent to 1.0x pDOM (1.0x IceCube) (clsim.py:674 in MakePEFromPhotons)
+INFO (I3Reader): Opened file /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 (I3Reader.cxx:189 in void I3Reader::OpenNextFile())
+NOTICE (I3Tray): I3Tray finishing... (I3Tray.cxx:526 in void I3Tray::Execute(bool, unsigned int))
+INFO (Python): Will calculate PEs for PDOM with photocathode area equivalent to 1.0x pDOM (1.0x PDOM) (clsim.py:674 in MakePEFromPhotons)
+INFO (I3Reader): Opened file /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 (I3Reader.cxx:189 in void I3Reader::OpenNextFile())
+NOTICE (I3Tray): I3Tray finishing... (I3Tray.cxx:526 in void I3Tray::Execute(bool, unsigned int))
+INFO (I3Reader): Opened file /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2 (I3Reader.cxx:189 in void I3Reader::OpenNextFile())
+WARN (Vuvuzela): No input map given. Producing noise-only events. (Vuvuzela.cxx:150 in virtual void Vuvuzela::Configure())
+WARN (PMTResponseSimulator): Enabling 'low memory' mode, which will attempt to reduce memory use at the cost of longer run time (PMTResponseSimulator.cxx:135 in virtual void PMTResponseSimulator::Configure())
+WARN (Vuvuzela): No input map given. Producing noise-only events. (Vuvuzela.cxx:150 in virtual void Vuvuzela::Configure())
+WARN (PMTResponseSimulator): Enabling 'low memory' mode, which will attempt to reduce memory use at the cost of longer run time (PMTResponseSimulator.cxx:135 in virtual void PMTResponseSimulator::Configure())
+WARN (CylinderTrigger): Using measurement mode 0 (CylinderTrigger.cxx:94 in virtual void CylinderTrigger::Configure())
+WARN (CylinderTrigger): Using measurement mode 0 (CylinderTrigger.cxx:94 in virtual void CylinderTrigger::Configure())
+WARN (CylinderTrigger): Using measurement mode 0 (CylinderTrigger.cxx:94 in virtual void CylinderTrigger::Configure())
+WARN (CylinderTrigger): Using measurement mode 0 (CylinderTrigger.cxx:94 in virtual void CylinderTrigger::Configure())
+WARN (CylinderTrigger): Using measurement mode 0 (CylinderTrigger.cxx:94 in virtual void CylinderTrigger::Configure())
+INFO (CylinderTrigger): Cylinder: 8, multi: 8, timewindow: 1750.000000, radius: 2500.000000, height: 2500.000000, domset: 1005 (CylinderTrigger.cxx:405 in virtual void CylinderTrigger::DetectorStatus(I3FramePtr))
+INFO (CylinderTrigger): Cylinder: 8, multi: 8, timewindow: 1750.000000, radius: 2500.000000, height: 2500.000000, domset: 1006 (CylinderTrigger.cxx:405 in virtual void CylinderTrigger::DetectorStatus(I3FramePtr))
+INFO (CylinderTrigger): Cylinder: 20, multi: 20, timewindow: 500.000000, radius: 6000.000000, height: 6000.000000, domset: 1001 (CylinderTrigger.cxx:405 in virtual void CylinderTrigger::DetectorStatus(I3FramePtr))
+INFO (CylinderTrigger): Cylinder: 8, multi: 4, timewindow: 1000.000000, radius: 175.000000, height: 75.000000, domset: 2 (CylinderTrigger.cxx:405 in virtual void CylinderTrigger::DetectorStatus(I3FramePtr))
+INFO (CylinderTrigger): Cylinder: 6, multi: 4, timewindow: 200.000000, radius: 60.000000, height: 10.000000, domset: 8 (CylinderTrigger.cxx:405 in virtual void CylinderTrigger::DetectorStatus(I3FramePtr))
+INFO (I3Reader): Opened file /n/netscratch/arguelles_delgado_lab/Everyone/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Phot/7_0.i3.zst (I3Reader.cxx:189 in void I3Reader::OpenNextFile())
+INFO (DOMLauncher): Configuring DOM Object map for DOMLauncher. If tabulation of the SPE pulse templates is used this can take a while. (DOMLauncher.cxx:263 in void DOMLauncher::InitilizeDOMMap())
+NOTICE (I3Tray): I3Tray finishing... (I3Tray.cxx:526 in void I3Tray::Execute(bool, unsigned int))
+INFO (Vuvuzela): Produced 925745 MCPEs in 0.216120 seconds  (Vuvuzela.cxx:180 in virtual void Vuvuzela::Finish())
+INFO (Vuvuzela): Produced 118348 MCPEs in 0.216120 seconds  (Vuvuzela.cxx:180 in virtual void Vuvuzela::Finish())
+INFO (CylinderTrigger): Found 0 triggers out of 7204 events for config id 1018. (CylinderTrigger.cxx:253 in virtual void CylinderTrigger::Finish())
+INFO (CylinderTrigger): Found 0 triggers out of 7204 events for config id 2018. (CylinderTrigger.cxx:253 in virtual void CylinderTrigger::Finish())
+INFO (CylinderTrigger): Found 0 triggers out of 7204 events for config id 1003. (CylinderTrigger.cxx:253 in virtual void CylinderTrigger::Finish())
+INFO (SimpleMajorityTrigger): Found 172 triggers out of 7204 events for config id 1006. (SimpleMajorityTrigger.cxx:227 in virtual void SimpleMajorityTrigger::Finish())
+INFO (SimpleMajorityTrigger): Found 163 triggers out of 7204 events for config id 1011. (SimpleMajorityTrigger.cxx:227 in virtual void SimpleMajorityTrigger::Finish())
+INFO (ClusterTrigger): Found 226 triggers out of 7204 events (ClusterTrigger.cxx:185 in virtual void ClusterTrigger::Finish())
+INFO (CylinderTrigger): Found 403 triggers out of 7204 events for config id 21001. (CylinderTrigger.cxx:253 in virtual void CylinderTrigger::Finish())
+INFO (SimpleMajorityTrigger): Found 0 triggers out of 7204 events for config id 102. (SimpleMajorityTrigger.cxx:227 in virtual void SimpleMajorityTrigger::Finish())
+INFO (CylinderTrigger): Found 0 triggers out of 7204 events for config id 21002. (CylinderTrigger.cxx:253 in virtual void CylinderTrigger::Finish())
+INFO (I3ConditionalModule): 7206 frames written. (I3WriterBase.cxx:146 in virtual void I3WriterBase::Finish())
+INFO (I3Module): DetectorSim_0000_IceCube_vuvuzela_vuvuzela:     27.76s user      0.35s system (7204 calls to DAQ) (I3Module.cxx:103 in virtual I3Module::~I3Module())
+INFO (I3Module):        DetectorSim_0000_PMTResponse_IC86:     55.19s user      0.58s system (7204 calls to DAQ) (I3Module.cxx:103 in virtual I3Module::~I3Module())
+INFO (I3Module):     DetectorSim_0000_IceCube_DOMLauncher:     23.42s user      0.44s system (7204 calls to DAQ) (I3Module.cxx:103 in virtual I3Module::~I3Module())
+INFO (I3Module):                       I3TimeShifter_0000:     20.01s user      0.31s system (7204 calls to DAQ) (I3Module.cxx:103 in virtual I3Module::~I3Module())
+INFO (I3Module):          run_calib_wavedeform_wavedeform:     10.09s user      0.19s system (7204 calls to DAQ) (I3Module.cxx:103 in virtual I3Module::~I3Module())
+Settings :
+  Run number : 190303
+  File number : 7000
+  GCD file : /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/kerrynguyen/GeoCalibDetectorStatus_ICUpgrade.v58.sDOM.V1.i3.bz2
+  Hole ice model : ANGSENS/angsens/as.flasher_p1_0.30_p2_-1
+  Efficiencies : ['1.0']
+GCD file contains modules with these sensor types:
+	  IceCube (EfficiencyScale: 1.0 )
+	  PDOM (EfficiencyScale: 1.0 )
+Redo BadDomList: False
+Adding Upgrade_PulseTrigger 1018 on Domset Upgrade
+Adding Upgrade_DC_PulseTrigger 2018 on Domset Upgrade_DC
+Adding GEN2_PulseTrigger 1003 on Domset GEN2
+Adding DOM set : 1001 : <function GenerateTrigConfig.<locals>.<lambda> at 0x14c91dc37b50>
+Adding DOM set : 1000 : <function GenerateTrigConfig.<locals>.<lambda> at 0x14c91dc37be0>
+Adding DOM set : 999 : <function GenerateTrigConfig.<locals>.<lambda> at 0x14c91dc37d00>
+Adding DOM set : 1005 : <function is_om_in_upgrade_physics_region at 0x14c926483b50>
+Adding DOM set : 1006 : <function GenerateTrigConfig.<locals>.<lambda> at 0x14c91dc37d90>
+Adding DOM set : 1002 : <function GenerateTrigConfig.<locals>.<lambda> at 0x14c91dc37e20>
+Adding DOM set : 1003 : <function GenerateTrigConfig.<locals>.<lambda> at 0x14c91dc37ac0>
+I'm configuring Upgrade_PulseTrigger on domset Upgrade
+I'm configuring Upgrade_DC_PulseTrigger on domset Upgrade_DC
+I'm configuring GEN2_PulseTrigger on domset GEN2
+RemoveLatePhotons:  0  photons removed from this file.
+[Wed Dec  4 14:27:26 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst
+Finished upload.
+[Wed Dec  4 14:27:28 2024]
+Finished job 0.
+1 of 1 steps (100%) done
+Storing output in storage.
+Storing in storage: /n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/Upgrade1/190303/Det/7_0.i3.zst
+Finished upload.

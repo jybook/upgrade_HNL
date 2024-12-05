@@ -1,0 +1,4 @@
+Injecting conda environment /n/holylfs05/LABS/arguelles_delgado_lab/Everyone/jbook/upgrade_HNL/fridge/processing/samples/icu/snakemake/upgrade_env.yaml.
+Waiting at most 120 seconds for missing files.
+Missing files after 120 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+/n/holyscratch01/arguelles_delgado_lab/Users/jbook/fs/n/holylfs05/LABS/arguelles_delgado_lab/Lab/IceCube_MC/HNL/190303/Gen/0_1.i3.zst (missing locally, parent dir contents: 7_0.lic, 18_0.lic, 4_0.lic, 11_0.lic, 13_0.lic, 19_0.lic, 15_0.lic, 3_0.lic, 14_0.lic, 2_0.lic, 6_0.lic, 9_0.lic, 8_0.lic, 12_0.lic, 17_0.lic, 1_0.lic, 0_0.lic, 16_0.lic, 10_0.lic, 5_0.lic)
